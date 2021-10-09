@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba767f502a74830469e99ad7d88d7371, type: 3}
+  m_Name: WreckedTrabant
+  m_EditorClassIdentifier: 
+  type: 2
+  maxHealth: 500
+  currentHealth: 500
+  maxFuel: 100
+  currentFuel: 0
+  passNum: 4
+  drive: 0
+  maxRPM: 5000
+  minRPM: 400
+  gears:
+  - 0
+  - 4.08
+  - 2.32
+  - 1.52
+  - 1.03
+  - 3.83
+  enginePower:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -4.013901
+      value: 0.040502246
+      inSlope: 0.017213449
+      outSlope: 0.017213449
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.21314867
+    - serializedVersion: 3
+      time: 470.70758
+      value: 7.274276
+      inSlope: 0.012212013
+      outSlope: 0.012212013
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1083.5674
+      value: 13.32206
+      inSlope: 0.0054506073
+      outSlope: 0.0054506073
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 3694.907
+      value: 24.84812
+      inSlope: -0.0004091926
+      outSlope: -0.0004091926
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.079255916
+      outWeight: 0.16067077
+    - serializedVersion: 3
+      time: 5051
+      value: -1.507
+      inSlope: -0.05151155
+      outSlope: -0.05151155
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.029507663
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  wheelsNum: 4
+  smoothTime: 0.09
+  carPrice: 6900
+  carName: Wrecked Trabant
